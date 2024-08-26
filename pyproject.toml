@@ -8,8 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ultralytics = "^8.2.82"
-#yolov10 = "^0.0.1"
+ultralytics = { git = "https://github.com/THU-MIG/yolov10.git", rev = "cd2f79c" }
+huggingface-hub = "^0.23.2"
 
 [build-system]
 requires = ["poetry-core"]

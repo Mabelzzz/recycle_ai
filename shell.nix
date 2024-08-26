@@ -28,6 +28,7 @@ pkgs.mkShell {
   ];
   shellHook = ''
     poetry install
+    poetry lock
     export PATH=$PATH:/run/current-system/sw/bin
 	# export LD_DEBUG=libs
   	# export LD_LIBRARY_PATH=${pkgs.libGL}/lib:${pkgs.libGLU}/lib:${pkgs.freeglut}/lib:${pkgs.xorg.libX11}/lib:${pkgs.stdenv.cc.cc.lib}/lib:${pkgs.glib.out}/lib:$LD_LIBRARY_PATH

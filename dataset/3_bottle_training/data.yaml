@@ -1,6 +1,0 @@
-train: /home/airgeddon1337/Project/mobile_yolov10/dataset/3_bottle_training/images
-val: /home/airgeddon1337/Project/mobile_yolov10/dataset/3_bottle_training/images
-test: /home/airgeddon1337/Project/mobile_yolov10/dataset/3_bottle_training/images
-
-nc: 17
-names: ['- -', '- - oishi', '- 1250 ml', '- 1500 ml', '- 2000 ml', '- 330 ml', '- 350 ml', '- 450 ml', '- 500 ml', '- 590 ml', '- aura', '- auro', '- cocacola', '- gatorade', '- nestle', '- oishi', '- sevenselect']
